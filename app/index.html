@@ -40,16 +40,16 @@
 
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
+<!--               <li><a ng-href="#/about">About</a></li>
+              <li><a ng-href="#/">Contact</a></li> -->
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-    <div ng-view=""></div>
+    <div class="container" ng-controller="MainCtrl">
+    <hangman-game></hangman-game>
     </div>
 
     <div class="footer">
